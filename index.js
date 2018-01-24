@@ -1,4 +1,5 @@
 var animal = 'dog';
+var animal2 = 'cat';
 function myAnimal() {
   return animal;
 }
@@ -9,7 +10,7 @@ myAnimal();
 function yourAnimal() {
   return animal;
 }
-yourAnimal("cat");
+yourAnimal();
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 function add2(n) {
